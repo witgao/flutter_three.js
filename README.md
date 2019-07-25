@@ -1,4 +1,4 @@
-# flutter_threejs
+# flutter_three.js
 
  Three.js implementation on flutter
 

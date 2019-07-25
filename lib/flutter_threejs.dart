@@ -1,13 +1,3 @@
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-
-class FlutterThreejs {
-  static const MethodChannel _channel =
-      const MethodChannel('flutter_threejs');
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+export 'package:flutter_threejs/widgets/render.dart';
+export 'package:flutter_threejs/plugin/flutter_threejs_plugin.dart';
+export 'package:flutter_threejs/gles/gles_helper.dart';
